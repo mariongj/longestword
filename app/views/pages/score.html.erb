@@ -1,0 +1,11 @@
+<h1>******** Now your result ********</h1>
+
+<p>Your word: <%= @attempt %></p>
+<p>Time Taken to answer: <%=@time%></p>
+<p>Translation: <%=@translation%></p>
+<p>Your score: <%=@score%></p>
+<p>Message: <%=@message%></p>
+
+<%= link_to "Play again", game_path %>
+
+<p>Number of games: <%= @number_of_games %></p>
